@@ -2,6 +2,8 @@
 
 This Jupyter Notebook demonstrates the use of Machine Learning and Deep Learning for drug discovery of a specific protein. We establish a pipeline that includes constructing a Random Forest (RF) regression model to predict the pIC50 values for the target’s chemical compounds, employing LSTMs to generate novel Simplified Molecular-Input Line Entry System (SMILES) strings, and utilizing the trained RF model to predict the pIC50 values for the generated strings.
 
+Inspired by Chanin Nantasenamat's [Computational Drug Discovery](https://github.com/dataprofessor/code/blob/master/python/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb)
+
 ## Methods and Dataset
 * Dataset
   * Bioactivity data from the ChEMBL database for Human Acetylcholinesterase (hAChE)
@@ -25,7 +27,7 @@ This Jupyter Notebook demonstrates the use of Machine Learning and Deep Learning
   * Training [SMILES generator](https://github.com/alexarnimueller/SMILES_generator) with 1,725 SMILES strings representing active molecules
 
 ## Results
-* Mean Absolute Error for Random Forest
+* Mean Absolute Error for Random Forest: **0.75**
 ![test_pred_v1](https://github.com/TienNguyen93/drug-discovery/assets/43976085/fb8575ac-3b33-493a-9e7c-784cd2385926)
 
 * SMILES generator: cannot generate novel SMILES string due to minimum amount of training data

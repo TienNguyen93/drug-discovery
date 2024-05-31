@@ -30,4 +30,4 @@ Inspired by Chanin Nantasenamat's [Computational Drug Discovery](https://github.
 * Mean Absolute Error for Random Forest: **0.75**
 ![test_pred_v1](https://github.com/TienNguyen93/drug-discovery/assets/43976085/fb8575ac-3b33-493a-9e7c-784cd2385926)
 
-* SMILES generator: cannot generate novel SMILES string due to minimum amount of training data
+* Generated SMILES string from the SMILES_generator: 1 valid SMILES string of **C=O**
